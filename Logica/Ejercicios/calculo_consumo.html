@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <h3>¿Alcohol o gasolina?</h3>
+    </main>
+  </body>
+</html>
+<script defer>
+  var capacidadTanque = 40;
+  var distanciaGasolina = 480;
+  var distanciaAlcohol = 300;
+  var eficienciaGasolina = distanciaGasolina / capacidadTanque;
+  var eficienciaAlcohol = distanciaAlcohol / capacidadTanque;
+  document.write(
+    "La eficiencia del tanque con gasolina es de: " +
+      eficienciaGasolina +
+      "km/L"
+  );
+  document.write("<br><br><br>");
+  document.write(
+    "La eficiencia del tanque con alcohol es de: " + eficienciaAlcohol + "km/L"
+  );
+</script>

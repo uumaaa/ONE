@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+</html>
+<script defer>
+  function imprimir(msj) {
+    document.write(msj);
+  }
+  var edadP1 = prompt("Escriba la edad de la primera persona");
+  var edadP2 = prompt("Escriba la edad de la segunda persona");
+  var diferenciaEdad = Math.abs(edadP1 - edadP2);
+  imprimir(
+    "<big> La diferencia de edad entre la primera persona y la segunda es de " +
+      diferenciaEdad +
+      " años</big>"
+  );
+</script>

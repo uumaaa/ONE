@@ -1,0 +1,133 @@
+body {
+  /* Light blue/light-blue-100 */
+  background: #f3f5fc;
+}
+img {
+  position: absolute;
+  left: 40px;
+  top: 40px;
+}
+input[type="text"] {
+  position: absolute;
+  width: 577px;
+  height: 38px;
+  left: 240px;
+  top: 100px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  /* identical to box height, or 48px */
+  background-color: transparent;
+  /* Dark blue/dark-blue-300 */
+  color: #0a3871;
+  border-color: transparent;
+}
+#mensaje {
+  position: absolute;
+  color: rgb(119, 119, 119);
+  left: 100px;
+  top: 500px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+}
+#Encriptar {
+  position: absolute;
+  top: 560px;
+  left: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  gap: 8px;
+  width: 328px;
+  height: 67px;
+  color: white;
+  font-size: 20px;
+  /* Dark blue/dark-blue-300 */
+  background: #0a3871;
+  border-radius: 24px;
+}
+#Desencriptar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  gap: 8px;
+  width: 328px;
+  height: 67px;
+  border-color: #0a3871;
+  color: #0a3871;
+  font-size: 20px;
+  /* Dark blue/dark-blue-300 */
+  background: #d8dfe8;
+  border-radius: 24px;
+  position: absolute;
+  top: 560px;
+  left: 450px;
+}
+article {
+  position: absolute;
+  width: 400px;
+  height: 650px;
+  left: 1000px;
+  top: 20px;
+  /* White */
+  background: #ffffff;
+  /* shadow */
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+article > h3 {
+  width: 336px;
+  height: 58px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+
+  /* or 29px */
+  text-align: center;
+
+  /* Gray/gray-500 */
+  color: #343a40;
+}
+footer > h2 {
+  position: absolute;
+  top: 640px;
+  left: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+  color: rgb(119, 119, 119);
+}
+#BotonCopiar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  gap: 8px;
+  width: 250px;
+  height: 30px;
+  border-color: #0a3871;
+  color: #0a3871;
+  font-size: 20px;
+  /* Dark blue/dark-blue-300 */
+  background: #d8dfe8;
+  border-radius: 24px;
+  position: absolute;
+  top: 470px;
+  left: 85px;
+}

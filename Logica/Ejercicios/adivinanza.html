@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+</html>
+<script defer>
+  function sorteo(n) {
+    return Math.round(Math.random() * n);
+  }
+  var n = parseInt(prompt("Escribe el valor máximo a adivinar"));
+  var numeroCalculado = sorteo(n);
+  var numeroEscogido = parseInt(prompt("Escribe un número"));
+  if (numeroCalculado === numeroEscogido) {
+    document.write("Has adivinado");
+  } else if (numeroEscogido > numeroCalculado) {
+    document.write("El valor que escogiste es mayor al numero calculado");
+    document.write("<br> El valor real era" + numeroCalculado);
+  } else {
+    document.write("El valor que escogiste es menor al numero calculado");
+    document.write("<br> El valor real era" + numeroCalculado);
+  }
+</script>
